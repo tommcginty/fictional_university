@@ -1,0 +1,25 @@
+[11-Jul-2020 16:02:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[11-Jul-2020 16:07:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[11-Jul-2020 16:08:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[11-Jul-2020 16:16:02 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 11
+[11-Jul-2020 16:29:15 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[11-Jul-2020 16:32:49 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[11-Jul-2020 16:41:13 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[11-Jul-2020 16:41:13 UTC] PHP Stack trace:
+[11-Jul-2020 16:41:13 UTC] PHP   1. {main}() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:0
+[11-Jul-2020 16:41:13 UTC] PHP   2. require() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:17
+[11-Jul-2020 16:41:13 UTC] PHP   3. require_once() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[11-Jul-2020 16:41:13 UTC] PHP   4. include() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[11-Jul-2020 16:41:13 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[11-Jul-2020 16:41:13 UTC] PHP Stack trace:
+[11-Jul-2020 16:41:13 UTC] PHP   1. {main}() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:0
+[11-Jul-2020 16:41:13 UTC] PHP   2. require() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:17
+[11-Jul-2020 16:41:13 UTC] PHP   3. require_once() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[11-Jul-2020 16:41:13 UTC] PHP   4. include() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[11-Jul-2020 16:41:13 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[11-Jul-2020 16:41:13 UTC] PHP Stack trace:
+[11-Jul-2020 16:41:13 UTC] PHP   1. {main}() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:0
+[11-Jul-2020 16:41:13 UTC] PHP   2. require() /Users/tommcginty/Local Sites/fictional-university/app/public/index.php:17
+[11-Jul-2020 16:41:13 UTC] PHP   3. require_once() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[11-Jul-2020 16:41:13 UTC] PHP   4. include() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[11-Jul-2020 16:43:35 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
