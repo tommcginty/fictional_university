@@ -191,3 +191,33 @@ Stack trace:
 [14-Jul-2020 20:38:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
 [14-Jul-2020 20:38:14 UTC] PHP   5. wp_update_themes() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
 [14-Jul-2020 20:38:14 UTC] PHP   6. trigger_error() /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/update.php:578
+[15-Jul-2020 15:14:33 UTC] PHP Parse error:  syntax error, unexpected 'add_theme_support' (T_STRING) in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 13
+[15-Jul-2020 15:29:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nave_menu() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:19
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template.php(723): require_once()
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template.php(672): load_template('/Users/tommcgin...', true)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/tommcgin...')
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/tommcgin...')
+#6 /Users/tommcginty/Local Sites/fictional-university/ in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 19
+[18-Jul-2020 14:53:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 23
+[18-Jul-2020 14:53:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 23
+[18-Jul-2020 14:55:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 24
+[18-Jul-2020 14:55:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 24
+[18-Jul-2020 14:57:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 24
+[18-Jul-2020 14:57:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 24
+[18-Jul-2020 14:59:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 26
+[18-Jul-2020 14:59:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 25
+[18-Jul-2020 15:00:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 26
+[18-Jul-2020 15:02:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 26
+[18-Jul-2020 15:02:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 26
+[18-Jul-2020 15:05:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function thepermalink() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:20
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/tommcgin...')
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/index.php(17): require('/Users/tommcgin...')
+#3 {main}
+  thrown in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 20
+[18-Jul-2020 15:43:24 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 24
+[18-Jul-2020 15:50:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 23
