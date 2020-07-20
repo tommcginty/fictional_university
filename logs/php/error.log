@@ -223,3 +223,5 @@ Stack trace:
 [18-Jul-2020 15:50:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 23
 [18-Jul-2020 16:32:41 UTC] PHP Parse error:  syntax error, unexpected ')', expecting end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 13
 [18-Jul-2020 16:35:16 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 9
+[20-Jul-2020 11:17:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 114
+[20-Jul-2020 11:40:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
