@@ -225,3 +225,31 @@ Stack trace:
 [18-Jul-2020 16:35:16 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 9
 [20-Jul-2020 11:17:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 114
 [20-Jul-2020 11:40:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
+[20-Jul-2020 13:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:9
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2294): do_action('wp_enqueue_scri...')
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/tommcginty/Local Sites/fictional-universit in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
+[20-Jul-2020 13:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:9
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2294): do_action('wp_enqueue_scri...')
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/tommcginty/Local Sites/fictional-universit in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
+[20-Jul-2020 13:01:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
+[20-Jul-2020 13:06:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:9
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_files('')
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2294): do_action('wp_enqueue_scri...')
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/tommcginty/Local Sites/fictional-universit in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
