@@ -1,2 +1,6 @@
-node_modules
-logs
+app/public/wp-content/themes/fictional-university-theme/node_modules/**
+logs/**
+app/public/wp-content/plugins/**
+logs/php/error.log
+app/sql/local.sql
+logs/php/php-fpm.log
