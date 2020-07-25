@@ -12,3 +12,10 @@
 [18-Jul-2020 14:40:07] NOTICE: exiting, bye-bye!
 [20-Jul-2020 07:06:30] NOTICE: fpm is running, pid 4823
 [20-Jul-2020 07:06:30] NOTICE: ready to handle connections
+[25-Jul-2020 10:46:39] NOTICE: fpm is running, pid 31912
+[25-Jul-2020 10:46:39] NOTICE: ready to handle connections
+[25-Jul-2020 10:55:02] NOTICE: Terminating ...
+[25-Jul-2020 10:55:02] NOTICE: Terminating ...
+[25-Jul-2020 10:55:02] NOTICE: exiting, bye-bye!
+[25-Jul-2020 10:55:04] NOTICE: fpm is running, pid 32202
+[25-Jul-2020 10:55:04] NOTICE: ready to handle connections

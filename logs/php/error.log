@@ -253,3 +253,43 @@ Stack trace:
 #4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
 #5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
 #6 /Users/tommcginty/Local Sites/fictional-universit in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
+[25-Jul-2020 14:59:01 UTC] PHP Parse error:  syntax error, unexpected 'excerpt' (T_STRING) in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 58
+[25-Jul-2020 15:07:52 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/mu-plugins/univeristy-post-types.php on line 6
+[25-Jul-2020 15:07:53 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/mu-plugins/univeristy-post-types.php on line 6
+[25-Jul-2020 15:07:53 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/mu-plugins/univeristy-post-types.php on line 6
+[25-Jul-2020 15:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_feild() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:27
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/tommcgin...')
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/index.php(17): require('/Users/tommcgin...')
+#3 {main}
+  thrown in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 27
+[25-Jul-2020 16:07:17 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[25-Jul-2020 16:12:24 UTC] PHP Parse error:  syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 25
+[25-Jul-2020 16:32:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_archive() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:24
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_adjust_queries(Object(WP_Query))
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(1768): do_action_ref_array('pre_get_posts', Array)
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(3432): WP_Query->get_posts()
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(624): WP_Query->query(Array)
+#6 /Users/tommcginty/Local Sites in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[25-Jul-2020 16:32:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_archive() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:24
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_adjust_queries(Object(WP_Query))
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(1768): do_action_ref_array('pre_get_posts', Array)
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(3432): WP_Query->get_posts()
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(624): WP_Query->query(Array)
+#6 /Users/tommcginty/Local Sites in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[25-Jul-2020 16:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_post_archive() in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:24
+Stack trace:
+#0 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): university_adjust_queries(Object(WP_Query))
+#1 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(1768): do_action_ref_array('pre_get_posts', Array)
+#4 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(3432): WP_Query->get_posts()
+#5 /Users/tommcginty/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(624): WP_Query->query(Array)
+#6 /Users/tommcginty/Local Sites in /Users/tommcginty/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
