@@ -4,3 +4,4 @@ app/public/wp-content/plugins/**
 app/sql/local.sql
 logs/php/php-fpm.log
 logs/php/error.log
+app/public/wp-content/uploads/**
