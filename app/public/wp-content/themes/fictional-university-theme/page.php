@@ -4,7 +4,7 @@ get_header();
 
 while(have_posts()) {
     the_post(); 
-    pageBanner();
+    pageBanner(array());
     ?>
 
   <div class="container container--narrow page-section">
