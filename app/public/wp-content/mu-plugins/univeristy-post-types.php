@@ -43,7 +43,7 @@ function university_post_types() {
         'labels' => array (
             'name' => "Programs",
             'add_new_item' => 'Add New Program',
-            'edit_item' => 'Edit Event',
+            'edit_item' => 'Edit Program',
             'all_items' => 'All Programs',
             'singular_name' => 'Program'
         ),
